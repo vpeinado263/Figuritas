@@ -15,7 +15,7 @@ const Card = ({value}) => { //Recivo la propieda value
         figure {
             width: 200px;
             height: 500px;
-            border: 2px solid red;
+            border: 2px solid rgb(52, 131, 250);
             display: flex;
             flex-direction: column;
             align-items: center;
