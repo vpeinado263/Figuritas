@@ -4,7 +4,7 @@ const Section = () => {
     return (
         <>
         <section>
-            <h2>Insumos para UPP</h2>
+            <h2>Álbum Qatar 2022: esta es la figurita imposible de conseguir según la estadística</h2>
             <CardContainer/>
         </section>
 

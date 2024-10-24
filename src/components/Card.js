@@ -1,12 +1,12 @@
 import Button from "./Button"
 
-const Card = () => {
+const Card = ({value}) => { //Recivo la propieda value
     return(
         <>
         <figure>
-            <img src="https://http2.mlstatic.com/D_NQ_NP_851403-MLA52084968616_102022-O.webp" />
+            <img src="https://http2.mlstatic.com/D_NQ_NP_851403-MLA52084968616_102022-O.webp"/>
             <figcaption>
-                <h3>Lionel Andrés Messi Cuccittini</h3>
+                <h3>Lionel Andrés Messi Cuccittini {value}</h3>
             </figcaption>
             <p>La figurita difícil es un mito. Se imprime la misma cantidad de todas las figuritas que integran un álbum.</p>
             <Button/>
