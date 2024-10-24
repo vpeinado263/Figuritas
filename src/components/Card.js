@@ -4,31 +4,29 @@ const Card = () => {
     return(
         <>
         <figure>
-            <img src="https://dcdn.mitiendanube.com/stores/001/539/668/products/colchon-antiescaras21-60e5d4495d1e7736b216132282351257-1024-1024.jpg" />
+            <img src="https://http2.mlstatic.com/D_NQ_NP_851403-MLA52084968616_102022-O.webp" />
             <figcaption>
-                <h3>Colchon Aire Antiescaras</h3>
+                <h3>Lionel Andrés Messi Cuccittini</h3>
             </figcaption>
-            <p>Colchón de material PVC atóxico, 18 Celdas individuales tubulares, 2 extensiones no inflables para doblarse debajo del colchón, cabecera y piecera. Apto para camas ortopédicas y camas tradicionales de 1 plaza</p>
+            <p>La figurita difícil es un mito. Se imprime la misma cantidad de todas las figuritas que integran un álbum.</p>
             <Button/>
         </figure>
         <style jsx>{`
         figure {
-            width: 300px;
-            height: 450px;
-            border: 2px solid black;
+            width: 200px;
+            height: 500px;
+            border: 2px solid red;
             display: flex;
             flex-direction: column;
             align-items: center;
         }
         img {
             width: 100%;
-            height: 50%;
-            object-fit: cover;
+            height: 40%;
         }
         h3 {
             font-size: 1rem;
             text-aling: center;
-            line-height: 0;
         }
         p{
             font-size: 1rem;
