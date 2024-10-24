@@ -12,6 +12,7 @@ const Button = () => {
                 padding: 10px 20px;
                 font-weight: bold;
                 transition: 0.3s;
+                margin: auto;
             }       
             button:hover {
                 transform: translateY(2px);
