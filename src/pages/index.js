@@ -1,5 +1,4 @@
-
-import CardContainer from "@/components/CardsContainer";
+import Section from "@/components/Section";
 import Head from "next/head";
 
 export default function Home() {
@@ -12,7 +11,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <CardContainer/>
+        <Section/>
       </main>
     </>
   );
