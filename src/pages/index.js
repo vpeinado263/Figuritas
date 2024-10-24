@@ -1,4 +1,5 @@
-import Button from "@/components/Button";
+
+import Card from "@/components/Card";
 import Head from "next/head";
 
 export default function Home() {
@@ -11,7 +12,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Button/>
+        <Card/>
       </main>
     </>
   );
