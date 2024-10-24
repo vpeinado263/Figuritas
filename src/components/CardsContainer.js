@@ -1,6 +1,6 @@
 import Card from "./Card"
 
-const x = [1, 2, 3, 4]
+const x = [1, 2, 3, 4, 5, 6]
 
 const CardContainer = () => {
     return (
@@ -10,6 +10,13 @@ const CardContainer = () => {
                 x.map(x => <Card/>)
             }
         </div>
+        <style jsx>{`
+        div {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        `}</style>
     </>
     )
 }
