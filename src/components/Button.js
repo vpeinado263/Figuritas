@@ -17,6 +17,7 @@ const Button = () => {
             button:hover {
                 transform: translateY(2px);
                 box-shadow: none;
+                background-color: rgb(41, 104, 200);
             }
         `}</style>
         </>
