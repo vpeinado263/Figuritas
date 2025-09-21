@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "format": "prettier --write \"frontend/**/*.{js,jsx,ts,tsx,json,css,md}\""
   },
   "dependencies": {
     "next": "15.0.1",
