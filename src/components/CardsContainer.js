@@ -1,25 +1,23 @@
-import Card from "./Card"
+import Card from "./Card";
 
-const x = [1, 2, 3, 4]
+const x = [1, 2, 3, 4];
 
 const CardContainer = () => {
-    return (
+  return (
     <>
-        <div>
-            {
-                x.map(item => (
-                    <Card key={item} value={item}/> //Aqui pasamos una 'key' y una propiedad 'value'
-                ))
-            }
-        </div>
-        <style jsx>{`
+      <div>
+        {x.map((item) => (
+          <Card key={item} value={item} /> //Aqui pasamos una 'key' y una propiedad 'value'
+        ))}
+      </div>
+      <style jsx>{`
         div {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
         }
-        `}</style>
+      `}</style>
     </>
-    )
-}
-export default CardContainer
+  );
+};
+export default CardContainer;

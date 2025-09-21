@@ -1,9 +1,9 @@
 body {
-    margin: 0;
-    height: 100vh;
-    background: linear-gradient(to bottom, #74A1D4, #FFFFFF, #74A1D4);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #333; 
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(to bottom, #74a1d4, #ffffff, #74a1d4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
 }

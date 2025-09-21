@@ -1,4 +1,4 @@
-## 2da-Tarea-REACT-NEXT.JS 
+## 2da-Tarea-REACT-NEXT.JS
 
 ## Descripción
 
@@ -14,14 +14,14 @@ El proyecto consta de cuatro componentes principales:
 4. **Section**: Un componente que agrupa todas las tarjetas dentro de una sección.
 
 ### Diseño de las Tarjetas
-Cada tarjeta contiene la imagen de la figurita de Messi y una descripción relacionada con el mito de la figurita difícil. Al ser cuatro tarjetas idénticas, quise representar visualmente este concepto.
 
+Cada tarjeta contiene la imagen de la figurita de Messi y una descripción relacionada con el mito de la figurita difícil. Al ser cuatro tarjetas idénticas, quise representar visualmente este concepto.
 
 ## Desafíos Encontrados
 
-1. **Uso de `map()` para renderizar componentes**: 
+1. **Uso de `map()` para renderizar componentes**:
    Inicialmente, tuve problemas al mapear las tarjetas en el componente `CardContainer`, ya que no asigné una clave (`key`) adecuada a cada tarjeta. Esto provocaba advertencias en la consola de React. La clave debe ser única para que React pueda manejar eficientemente los elementos en la lista.
-   
+
    **Solución**: Añadí una clave única usando el índice del array en el `map()`.
 
 2. **Creación de componentes dinámicos y reutilizables**:
@@ -42,6 +42,3 @@ Cada tarjeta contiene la imagen de la figurita de Messi y una descripción relac
 - Entender la estructura de componentes.
 
 Puedes ver el proyecto en vivo aquí: [2da-Tarea-REACT-NEXT.JS](https://2da-tarea-react-next-js.vercel.app/)
-
-
-
