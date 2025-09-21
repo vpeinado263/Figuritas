@@ -1,4 +1,4 @@
-# CREANDO COMPONENTES
+## 2da-Tarea-REACT-NEXT.JS 
 
 ## Descripción
 
@@ -37,8 +37,11 @@ Cada tarjeta contiene la imagen de la figurita de Messi y una descripción relac
 
 ## Desafíos
 
+- Creación de componentes y estilos en CSS.
+
 - Entender la estructura de componentes.
 
-## Aprendizajes
+Puedes ver el proyecto en vivo aquí: [2da-Tarea-REACT-NEXT.JS](https://2da-tarea-react-next-js.vercel.app/)
 
-- Creación de componentes y estilos en CSS.
+
+
